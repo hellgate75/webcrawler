@@ -40,6 +40,7 @@ public class WebCrawlerProcess extends Thread {
 
 	/**
 	 * WebCrowler process constructor
+	 * @param projectUID Project Unique Identifier
 	 * @param currentSitePage Web Site Page to crawl into
 	 * @param scheduler Child Web Page crawling scheduler
 	 */

@@ -291,6 +291,7 @@ public class WebCrawlerHelper {
 	
 	/**
 	 * Return the list of the available and active site page filters
+	 * @param projectUID Project Unique Identifier
 	 * @return the list of site page filters
 	 * @see SitePageFilter
 	 */

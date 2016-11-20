@@ -26,8 +26,6 @@ public class VisitedFilter implements SitePageFilter {
 		boolean skipDuplicates = false;
 		if (configuration!=null) {
 			skipDuplicates = configuration.getSkipDuplicates().booleanValue();
-//			System.out.println("Site Page : "+childPage.getFullUrlString()+" - Visited : " + parent.checkVisitedInHierarchy(childPage, configuration.getSkipDuplicates().booleanValue()));
-//			return !parent.checkVisitedInHierarchy(childPage, configuration.getSkipDuplicates().booleanValue());
 		}
 		for(String url : configuration.getVisitedURLs()) {
 			if (skipDuplicates) {

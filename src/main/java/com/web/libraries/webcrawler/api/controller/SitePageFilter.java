@@ -15,7 +15,7 @@ public interface SitePageFilter {
 	/**
 	 * Evaluates the Web Page model element and accepts the as candidate for the surfing
 	 * @param sitePage Site Page Model to be evaluated
-	 * @param pages Parent Page Model
+	 * @param parent Parent Page Model
 	 * @return acceptance status
 	 */
 	boolean accept(WebPage sitePage, WebPage parent);

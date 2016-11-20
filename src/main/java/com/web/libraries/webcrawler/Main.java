@@ -16,7 +16,7 @@ public class Main {
 
 	/**
 	 * Main method
-	 * @param args input arguments list
+	 * @param arguments input arguments list
 	 * @throws WebCrawlerException Any exception raised during the Web Crawler boostrap
 	 */
 	public static void main(String[] arguments) throws WebCrawlerException {

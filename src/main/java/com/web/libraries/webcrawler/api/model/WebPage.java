@@ -202,7 +202,7 @@ public class WebPage {
 	/**
 	 * Retrieve if a Web Page has been visited in the Site Map hierarchy
 	 * @param aPage Web Page to search for
-	 * @partialMatch State that defines if the match should be on a partial URL
+	 * @param partialMatch State that defines if the match should be on a partial URL
 	 * @return the visited state of the page
 	 */
 	public boolean checkVisitedInHierarchy(WebPage aPage, boolean partialMatch) {
